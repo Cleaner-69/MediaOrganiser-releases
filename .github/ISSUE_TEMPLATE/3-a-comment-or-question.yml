@@ -1,0 +1,11 @@
+name: A comment or question
+description: Anything else - what you liked, what confused you, or a question.
+title: "Comment: "
+labels: ["comment"]
+body:
+  - type: textarea
+    id: comment
+    attributes:
+      label: Your comment or question
+    validations:
+      required: true
