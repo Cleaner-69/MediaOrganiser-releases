@@ -49,12 +49,16 @@ Keep MediaOrganiser.exe in the folder you unzipped it to. Its settings belong to
 
 ## Tell us what you think
 
-Found something that does not work? Have an idea, or just a comment? Please tell us:
+Found something that does not work? Have an idea, or just a comment? Click the one that fits - a short form
+opens with a few simple questions (you need a free GitHub account to post):
 
-- Click **Issues** at the top of this page, then **New issue**, and choose
-  **Something is not working**, **An idea or wish**, or **A comment or question**.
-  The form asks a few simple questions. (You need a free GitHub account to post.)
-- Or simply tell Ernst - a message or an email is just as good.
+- [Something is not working](../../issues/new?template=1-something-is-not-working.yml)
+- [An idea or wish](../../issues/new?template=2-an-idea-or-wish.yml)
+- [A comment or question](../../issues/new?template=3-a-comment-or-question.yml)
+
+You can also see what others have already reported under [Issues](../../issues)
+(on a phone it may be under **More** at the top of the page).
+Or simply tell Ernst - a message or an email is just as good.
 
 Everything posted under Issues can be seen by anyone, so please do not include personal details.
 If Ernst asks for **diagnostics** (Settings > Save diagnostics puts a zip on your Desktop), send that zip
