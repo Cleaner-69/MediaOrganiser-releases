@@ -1,0 +1,48 @@
+name: Something is not working
+description: The app did something wrong, showed an error, or got stuck.
+title: "Problem: "
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for telling us! Please answer in your own words - there are no wrong answers.
+        Anyone can read what you post here, so please leave out personal details.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see? If there was a message, what did it say?
+    validations:
+      required: true
+  - type: textarea
+    id: what-expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: What were you doing just before?
+      description: For example "I pressed Scan on my Downloads folder, then Confirm titles".
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Which version?
+      description: Shown at the top of the app window, for example "1.1.0 beta 4".
+    validations:
+      required: false
+  - type: dropdown
+    id: again
+    attributes:
+      label: Does it happen again if you try the same thing?
+      options:
+        - "Yes, every time"
+        - "Sometimes"
+        - "It happened once"
+        - "I have not tried again"
+    validations:
+      required: false
