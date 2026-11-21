@@ -41,10 +41,13 @@ Keep MediaOrganiser.exe in the folder you unzipped it to. Its settings belong to
 ## New versions
 
 - Each new version is listed under **Releases**, newest at the top, with a short note of what changed.
-- Updating is easy: download the new zip and unzip it into the **same folder**, replacing the old
-  MediaOrganiser.exe. Your settings and choices stay.
-- Older versions stay on the Releases page. If a new version gives you trouble, you can download the one
-  before it and unzip that into the same folder.
+- The app updates itself: once a day it looks here for a newer version and asks you before installing it.
+  It checks that the download really comes from Ernst, keeps your settings and choices, and restarts.
+  **Settings > Check for updates** looks straight away; **Settings > What's new** shows what changed.
+- Updating by hand works too: download the new zip and unzip it into the **same folder**, replacing the old
+  MediaOrganiser.exe. (Beta 3 and older cannot update themselves - update those once by hand.)
+- The version before an update is kept beside the app as **MediaOrganiser.old.exe** - start that one if the
+  new version gives you trouble. Older versions also stay on the Releases page.
 - The version you have is shown at the top of the app window.
 
 ## Tell us what you think
@@ -67,4 +70,5 @@ to Ernst directly - do not post it here.
 ## Privacy
 
 The app keeps its logs on your own PC. It does not send your files, your file names or your logs anywhere.
-To look up film and series titles it asks The Movie Database (TMDb) online.
+It goes online for two things only: to look up film and series titles it asks The Movie Database (TMDb), and
+once a day it asks this page whether a newer version exists (nothing about you or your files is sent).
